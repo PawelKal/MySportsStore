@@ -1,0 +1,5 @@
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\SportStore.Domain.dll
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\SportStore.Domain.pdb
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\obj\Debug\SportStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\obj\Debug\SportStore.Domain.dll
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\obj\Debug\SportStore.Domain.pdb
