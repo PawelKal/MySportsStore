@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Informacje ogólne o zestawie zależą od poniższego 
 // zestawu atrybutów. Zmień wartości tych atrybutów, aby zmodyfikować informacje
 // związane z zestawem.
-[assembly: AssemblyTitle("SportStore.WebUI")]
+[assembly: AssemblyTitle("SportsStore.WebUI")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SportStore.WebUI")]
+[assembly: AssemblyProduct("SportsStore.WebUI")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

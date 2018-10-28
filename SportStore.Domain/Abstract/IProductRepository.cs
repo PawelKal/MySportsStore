@@ -1,4 +1,4 @@
-﻿using SportStore.Domain.Entities;
+﻿using SportsStore.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace SportStore.Domain.Abstract
+namespace SportsStore.Domain.Abstract
 {
     public interface IProductRepository
     {

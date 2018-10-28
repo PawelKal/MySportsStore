@@ -1,5 +1,3 @@
-C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\SportStore.Domain.dll
-C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\SportStore.Domain.pdb
 C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\System.Web.Helpers.dll
 C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\System.Web.Mvc.dll
@@ -14,5 +12,12 @@ C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Dom
 C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
-C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\obj\Debug\SportStore.Domain.dll
-C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\obj\Debug\SportStore.Domain.pdb
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\obj\Debug\SportsStore.Domain.pdb
