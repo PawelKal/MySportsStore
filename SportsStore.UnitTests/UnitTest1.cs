@@ -3,6 +3,7 @@ using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Web.Mvc;
 using Moq;
+using Microsoft.CSharp;
 using SportsStore.Domain.Entities;
 using SportsStore.Domain.Abstract;
 using SportsStore.WebUI.Controllers;
@@ -141,10 +142,29 @@ namespace SportsStore.UnitTests
             Assert.AreEqual(results[0], "Jabłka");
             Assert.AreEqual(results[1], "Pomarańcze");
             Assert.AreEqual(results[2], "Śliwki");
+        }
 
+        [TestMethod]
+        public void Indicates_Selected_Category()
+        {
+
+            // przygotowanie
+            // - utworzenie imitacji repozytorium
+            Mock<IProductRepository> mock = new Mock<IProductRepository>();
+            mock.Setup(m => m.Products).Returns(new Product[] {
+                new Product {ProductID = 1, Name = "P1", Category = "Jabłka"},
+                new Product {ProductID = 4, Name = "P2", Category = "Pomarańcze"},
+            });
+            //przygotowanie -stworzenie kontrolera
+            NavController target = new NavController(mock.Object);
+            //przygotowanie - definiowanie kategorii do wybrania
+            string categoryToSelect = "Jabłka";
+            //działanie 
+            string result = target.Menu(categoryToSelect).ViewBag.SelectedCategory;
+            //assercje
+            Assert.AreEqual(result, categoryToSelect);
 
         }
 
-
-    }
+        }
 }

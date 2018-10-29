@@ -21,3 +21,4 @@ C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Dom
 C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\SportsStore.Domain.pdb
 C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\obj\Debug\SportsStore.Domain.dll
 C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\Users\Paweł\documents\visual studio 2017\Projects\SportsStore\SportStore.Domain\bin\Debug\pl\System.Web.Mvc.resources.dll
