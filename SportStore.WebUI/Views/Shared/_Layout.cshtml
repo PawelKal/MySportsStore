@@ -8,11 +8,11 @@
     <link href="~/Content/bootstrap.min.css" rel="stylesheet"/>
     <title>@ViewBag.Title</title>
 </head>
-<body>
-    <div class="navbar navbar-inverse" role="navigation">
-        <a class="navbar-brand" href="#">Sklep sportowy</a>
+<body class="col-sm-12" style="margin:0; padding:0;">
+    <div class="navbar navbar-inverse" role="navigation"  >
+        <a class="navbar-brand" href="#" >Sklep sportowy</a>
     </div>
-    <div class="row panel">
+    <div class="row panel" style="margin:0">
         <div id="categoris" class="col-xs-3">
             @Html.Action("Menu","Nav")
         </div>
