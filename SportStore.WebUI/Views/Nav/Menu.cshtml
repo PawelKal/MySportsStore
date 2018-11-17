@@ -1,20 +1,21 @@
-﻿@model IEnumerable<string>
+﻿
+@model IEnumerable<string>
 
 @Html.ActionLink("Home", "List", "Product", null,
-    new { @class = "btn btn-secondary btn-block btn-lg" })
+    new { @class = "btn btn-info btn-block btn-lg" })
 
 
 @foreach (var link in Model)
 {
     @Html.RouteLink(link, new
-    {
-        controller = "Product",
-        action = "List",
-        category = link,
-        page = 1
-    }, new
-    {
-        @class = "btn btn-block btn-secondary btn-lg" + (link==ViewBag.SelectedCategory ?"btn-danger":"")
-
-    })
+{
+    controller = "Product",
+    action = "List",
+    category = link,
+    page = 1
+}, new
+{
+    //@class = "btn btn-block btn-info btn-lg" + (link==ViewBag.SelectedCategory ?"btn-default":"")
+    @class = (link == ViewBag.SelectedCategory ? "btn btn-block btn-default btn-lg" : "btn btn-block btn-info btn-lg")
+})
 }
