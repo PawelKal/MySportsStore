@@ -9,10 +9,12 @@
 {
     @Html.Partial("ProductSummary", p);
 }
+<section class="hidden-xs">
     <div class="btn-group pull-right">
-        @Html.PageLinks(Model.PagingInfo,x => Url.Action("List",
-       new {page=x, category=Model.CurrentCategory}))
+        @Html.PageLinks(Model.PagingInfo, x => Url.Action("List",
+        new { page = x, category = Model.CurrentCategory }))
     </div>
+</section>
 
 
 
